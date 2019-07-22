@@ -1,0 +1,12 @@
+#Instalacion de dependencias
+
+pip install -r requirements.txt
+
+#Lanzar aplicacion
+
+Crear variable de entorno FLASK_APP=run.py
+>En mac/Linux 'export FLASK_APP=run.py"
+>En Windows 'set FLASK_APP=run.py'
+
+Lanzar aplicacion en desarrollo
+flask run
